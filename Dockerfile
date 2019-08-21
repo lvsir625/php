@@ -1,4 +1,4 @@
-FROM   172.16.1.170/crm/php-fpm:5.6 
+FROM   362228416/php-fpm:5.6 
 ENV LANG C.UTF-8
 RUN mkdir /pecl/
 COPY redis-4.3.0.tgz   /pecl/
